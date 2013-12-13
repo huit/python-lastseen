@@ -18,7 +18,7 @@ import requests
 from netaddr import *
 
 # Unset https_proxy env var
-del os.environ['https_proxy']
+#del os.environ['https_proxy']
 
 parser = argparse.ArgumentParser(description='Update Last Seen Data from NetMRI API',
                     epilog='Example: lastseen.py --debug')
